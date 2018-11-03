@@ -11,13 +11,13 @@ int main()
 	while (x!=sum)
 	{
 		if(x<sum){
-			printf("小于\n");
+			printf("您输入的数小于随机数\n");
 		}
 		else {
-			printf("大于\n");
+			printf("您输入的数大于随机数\n");
 		}
 		scanf("%d",&x);
 	}
-	printf("等于\n");
+	printf("恭喜你答对了！！\n");
 	return 0;
 }
