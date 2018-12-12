@@ -1,3 +1,4 @@
+//累计求和
 #include <stdio.h>
 int sum1(int n)
 {
